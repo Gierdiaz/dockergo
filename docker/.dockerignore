@@ -1,0 +1,30 @@
+# Ignorar os arquivos binários gerados
+/go-app
+
+# Ignorar arquivos de configuração locais
+.env
+.idea/
+.vscode/
+
+# Ignorar dependências locais e cache
+/go
+
+# Ignorar arquivos de build do Go
+/build
+
+# Ignorar arquivos gerados e compilados
+*.out
+*.exe
+*.o
+*.a
+
+# Ignorar logs e dados temporários
+*.log
+/tmp
+*.tmp
+*.swp
+
+# Ignorar repositórios de controle de versão
+.git
+.gitignore
+
